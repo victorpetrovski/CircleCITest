@@ -1,2 +1,2 @@
 build/*
-!build/outputs
+!app/build/outputs/apk/
