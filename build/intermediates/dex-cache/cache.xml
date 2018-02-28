@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/Victor/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/2b9bccf13c8e98b5b5499cb530d20ae1/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b1e0cd070d7cf659ece90e919bff76e7ddc32532">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/f152df3072eef5f5b8bab7ceb52a8157/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcad7d1ffd2077055c670f0e316a64c65919287b">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/59762125915dff7c6594c6aa4e876f16/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c2deeac83ffa1304264bc755c2ddb84e7a7fa239">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Victor/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/7cc188ed49951ad1c58f53bc6b5cb410/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5a743d0934e90e7f26d75a2463142c4b884b2981">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Victor/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/cd338980102279d769f8413167979abd/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6694a48b4aee711a0577936e25068b4ea3eafc8b">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio_3.0.app/Contents/gradle/m2repository/org/jetbrains/annotations/13.0/annotations-13.0.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="919f0dfe192fb4e063e7dacadee7f8bb9a2672a9">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/359802e3a24b02c6bec973683803444e/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e04f28ac2dd9bbe48ced6fc87fedf46c2586f5d6">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Victor/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/330f6176b9f5fc6c65f54952fafaf06a/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="40a6b8f05124eb9e6012e18b80a6dbd13440e283">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Victor/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/7516262ee45fe2b7a9f0f4733a156dbf/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a64026daf4819a589aea776f5deb19b257a104d1">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Victor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/54fad7f659c49ed6ec6a8cd7d2c8514a/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4961be1437163ab598620a3c907c0f3432936f51">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Victor/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/9d73cbb1a1ea75ef9f202a7f40b5915f/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d29e451fd5bcc265989bf80afd4f149d95d72e7d">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Victor/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/7b1bfefe70ac25e48fcd3bdfaeea3b2c/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.0.aar/490693c643101e30168700b80542e3a7/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2a324d088fa3590ca105fd9db4f811e22dbd129a">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Victor/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1cb6bdce0318b04eab35832f1593d2cc/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Victor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/74aab0c2f49939c31252e18ac4224d33/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b77e50b3c31d0fc64148530f7077f79ec114b5b9">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Victor/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/ba17e070436e85c663ff51fafbacee19/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="13430a12bb2eb82b397f10f61fe1f6989279c6bd">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Victor/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/81b3a69dae9dc70aee9b7bb813e388a6/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="05e3d15c623cd98f0eb43c8249fb6151fae0786c">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/7cefb750b9d50c4cf88a148390c2e398/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a7a0aa678c3bbadb67fb41df9e107f7ee9087902">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/e320bdd8d5fea04176a5ea865cc4a341/jars/classes.jar"
+        jumboMode="false"
+        min-sdk-version="19"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cad1364721fc716a39bdc351d3637edb634c9aa5">
+        <dex dex="/Users/Victor/Development/CircleCiTestProject/app/build/intermediates/transforms/preDex/release/3.jar" />
+    </item>
+
+</items>

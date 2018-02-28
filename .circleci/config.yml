@@ -26,6 +26,9 @@ jobs:
       - store_artifacts:
           path: app/build/reports
           destination: reports
+      - run:
+           name: Initial build
+           command: ./gradlew clean assembleRelease --no-daemon --stacktrace
       - store_test_results:
           path: app/build/test-results
       - store_artifacts:
@@ -33,5 +36,13 @@ jobs:
           destination: apks/
       - deploy:
           name: "Deploy to Fabric 🎉🎉"
-          command:
-           ./gradlew crashlyticsUploadDistributionDevelopmentRelease --stacktrace --debug --no-daemon
+          command: |
+            echo "Branch: ${CIRCLE_BRANCH} , PR: ${CIRCLE_PULL_REQUEST}"
+            if [ "${CIRCLE_BRANCH}" == "develop" -o "${CIRCLE_PULL_REQUEST}" != "" ]; then
+              ./gradlew crashlyticsUploadDistributionDevelopmentRelease --stacktrace --debug --no-daemon
+            fi
+
+            release=$(cut -c-7 <<< "${CIRCLE_BRANCH}")
+            if [ "$release" == "release"]; then
+              ./gradlew crashlyticsUploadDistributionProductionRelease --stacktrace --debug --no-daemon
+            fi
