@@ -36,5 +36,7 @@ jobs:
           destination: apks/
       - deploy:
           name: "Deploy to Fabric 🎉🎉"
-          command: ./gradlew assembledebug crashlyticsUploadDistributiondebug --stacktrace --debug --no-daemon
+          command: |
+              echo "Branch: ${CIRCLE_BRANCH} , PR: ${CIRCLE_PULL_REQUEST}"
+             ./gradlew assembledebug crashlyticsUploadDistributiondebug --stacktrace --debug --no-daemon
 
