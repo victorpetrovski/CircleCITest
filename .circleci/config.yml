@@ -28,7 +28,7 @@ jobs:
           destination: reports
       - run:
            name: Initial build
-           command: ./gradlew clean assembleRelease --no-daemon --stacktrace
+           command: ./gradlew clean assembledebug --no-daemon --stacktrace
       - store_test_results:
           path: app/build/test-results
       - store_artifacts:
@@ -36,5 +36,5 @@ jobs:
           destination: apks/
       - deploy:
           name: "Deploy to Fabric 🎉🎉"
-          command: ./gradlew crashlyticsUploadDistributiondebug --stacktrace --debug --no-daemon
+          command: ./gradlew assembledebug crashlyticsUploadDistributiondebug --stacktrace --debug --no-daemon
 
