@@ -41,6 +41,9 @@ jobs:
             if [ "${CIRCLE_BRANCH}" == "master" -o "${CIRCLE_PULL_REQUEST}" != "" ]; then
               ./gradlew assembledebug crashlyticsUploadDistributiondebug --stacktrace --debug --no-daemon
             fi
+            if [ "${CIRCLE_BRANCH}" == "dev" ]; then
+               echo "Currently on Dev Branch we should not deploy on fabric"
+            fi
 
             release=$(cut -c-7 <<< "${CIRCLE_BRANCH}")
             if [ "$release" == "release"]; then
