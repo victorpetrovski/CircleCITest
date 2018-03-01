@@ -37,6 +37,14 @@ jobs:
       - deploy:
           name: "Deploy to Fabric 🎉🎉"
           command: |
-              echo "Branch: ${CIRCLE_BRANCH} , PR: ${CIRCLE_PULL_REQUEST}"
-             ./gradlew assembledebug crashlyticsUploadDistributiondebug --stacktrace --debug --no-daemon
+            echo "Branch: ${CIRCLE_BRANCH} , PR: ${CIRCLE_PULL_REQUEST}"
+            if [ "${CIRCLE_BRANCH}" == "master" -o "${CIRCLE_PULL_REQUEST}" != "" ]; then
+              ./gradlew assembledebug crashlyticsUploadDistributiondebug --stacktrace --debug --no-daemon
+            fi
+
+            release=$(cut -c-7 <<< "${CIRCLE_BRANCH}")
+            if [ "$release" == "release"]; then
+              ./gradlew crashlyticsUploadDistributionProductionRelease --stacktrace --debug --no-daemon
+            fi
+
 
