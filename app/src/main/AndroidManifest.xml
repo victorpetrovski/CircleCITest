@@ -9,13 +9,13 @@
         android:allowBackup="true"
         android:name=".CiTestApp"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="${applicationLabel}"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
+            android:label="${applicationLabel}"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,7 +30,7 @@
 
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="2ce6b6eb85da657e8fa64a0651c6286652317f24" />
+            android:value="3f893fdfd19567a8933196c0693551ccb40c0792" />
 
     </application>
 

@@ -1,27 +1,89 @@
 -- Merging decision tree log ---
+application
+INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:8:5-35:19
+MERGED from [com.android.support:design:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/fed9d8d796f2b5decf1d04a7d2f108ce/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/fed9d8d796f2b5decf1d04a7d2f108ce/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/78465adb08a0cfcd1f6078c0b898f2ae/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/78465adb08a0cfcd1f6078c0b898f2ae/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c038c6aa20aa08a9d489e0868f70e4be/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c038c6aa20aa08a9d489e0868f70e4be/AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/53042b7f3a167bd3cadf32be418f790a/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/53042b7f3a167bd3cadf32be418f790a/AndroidManifest.xml:11:5-17:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/9b8decabfc38d1bf6e290f9feef84838/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/9b8decabfc38d1bf6e290f9feef84838/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/b7769857e9c460b648441925e05b85df/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/b7769857e9c460b648441925e05b85df/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/35f7d1034b5d7c6fb5b20e9c5349358e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/35f7d1034b5d7c6fb5b20e9c5349358e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/7c05f35f81f5ad34d85b096508d345e6/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/7c05f35f81f5ad34d85b096508d345e6/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/c1296196d9bcddc3a0e45b49fb81d79d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/c1296196d9bcddc3a0e45b49fb81d79d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/185fe305f089a91850e7f86abb536d2f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/185fe305f089a91850e7f86abb536d2f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/634247f462411d7c22716f246835302b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/634247f462411d7c22716f246835302b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/3b5d5656ddb08bab007e9a9b7b2733f9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/3b5d5656ddb08bab007e9a9b7b2733f9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/86771dce713dc68cf0f6c1825427dfe1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/86771dce713dc68cf0f6c1825427dfe1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/4c0eeda0adf8a618b70aaba0f23a6cad/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/4c0eeda0adf8a618b70aaba0f23a6cad/AndroidManifest.xml:25:5-29:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.0.aar/d2d1ddb1eea26f4cccbfd9c0747d4edb/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.0.aar/d2d1ddb1eea26f4cccbfd9c0747d4edb/AndroidManifest.xml:54:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/676db45984a48ac46f61b3ee963ee52d/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/676db45984a48ac46f61b3ee963ee52d/AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/Victor/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/8bd1e11a0f8e84ad72ea0ab1e913ba7c/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/Victor/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/8bd1e11a0f8e84ad72ea0ab1e913ba7c/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/Victor/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/7c205b019a3898dad3bd03829962b96e/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/Victor/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/7c205b019a3898dad3bd03829962b96e/AndroidManifest.xml:11:5-20
+	android:supportsRtl
+		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:12:9-44
+	android:roundIcon
+		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:10:9-34
+activity#com.supportflatshare.circlecitestproject.MainActivity
+INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:16:9-25:20
+	android:label
+		INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:18:13-48
+	android:theme
+		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:19:13-56
+	android:name
+		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:17:13-41
 manifest
 ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:2:1-37:12
 INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:2:1-37:12
 INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:2:1-37:12
 INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:2:1-37:12
-MERGED from [com.android.support:design:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/e320bdd8d5fea04176a5ea865cc4a341/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/7cefb750b9d50c4cf88a148390c2e398/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1cb6bdce0318b04eab35832f1593d2cc/AndroidManifest.xml:2:1-11:12
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/f152df3072eef5f5b8bab7ceb52a8157/AndroidManifest.xml:2:1-19:12
-MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/54fad7f659c49ed6ec6a8cd7d2c8514a/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/74aab0c2f49939c31252e18ac4224d33/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/2b9bccf13c8e98b5b5499cb530d20ae1/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:transition:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/330f6176b9f5fc6c65f54952fafaf06a/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/7b1bfefe70ac25e48fcd3bdfaeea3b2c/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/9d73cbb1a1ea75ef9f202a7f40b5915f/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/81b3a69dae9dc70aee9b7bb813e388a6/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/359802e3a24b02c6bec973683803444e/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/59762125915dff7c6594c6aa4e876f16/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/7516262ee45fe2b7a9f0f4733a156dbf/AndroidManifest.xml:17:1-31:12
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.0.aar/490693c643101e30168700b80542e3a7/AndroidManifest.xml:45:1-56:12
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/cd338980102279d769f8413167979abd/AndroidManifest.xml:22:1-33:12
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/Victor/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/7cc188ed49951ad1c58f53bc6b5cb410/AndroidManifest.xml:2:1-13:12
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/Victor/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/ba17e070436e85c663ff51fafbacee19/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/fed9d8d796f2b5decf1d04a7d2f108ce/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/78465adb08a0cfcd1f6078c0b898f2ae/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c038c6aa20aa08a9d489e0868f70e4be/AndroidManifest.xml:2:1-11:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/53042b7f3a167bd3cadf32be418f790a/AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/9b8decabfc38d1bf6e290f9feef84838/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/b7769857e9c460b648441925e05b85df/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/35f7d1034b5d7c6fb5b20e9c5349358e/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/7c05f35f81f5ad34d85b096508d345e6/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/c1296196d9bcddc3a0e45b49fb81d79d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/185fe305f089a91850e7f86abb536d2f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/634247f462411d7c22716f246835302b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/3b5d5656ddb08bab007e9a9b7b2733f9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/86771dce713dc68cf0f6c1825427dfe1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/4c0eeda0adf8a618b70aaba0f23a6cad/AndroidManifest.xml:17:1-31:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.0.aar/d2d1ddb1eea26f4cccbfd9c0747d4edb/AndroidManifest.xml:45:1-56:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/676db45984a48ac46f61b3ee963ee52d/AndroidManifest.xml:22:1-33:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/Victor/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/8bd1e11a0f8e84ad72ea0ab1e913ba7c/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/Victor/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/7c205b019a3898dad3bd03829962b96e/AndroidManifest.xml:2:1-13:12
 INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:2:1-37:12
 INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:2:1-37:12
 INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:2:1-37:12
@@ -41,78 +103,70 @@ INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/Android
 		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:6:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/f152df3072eef5f5b8bab7ceb52a8157/AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/f152df3072eef5f5b8bab7ceb52a8157/AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.0.aar/490693c643101e30168700b80542e3a7/AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.0.aar/490693c643101e30168700b80542e3a7/AndroidManifest.xml:52:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/cd338980102279d769f8413167979abd/AndroidManifest.xml:29:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/cd338980102279d769f8413167979abd/AndroidManifest.xml:29:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/Victor/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/7cc188ed49951ad1c58f53bc6b5cb410/AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/Victor/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/7cc188ed49951ad1c58f53bc6b5cb410/AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/Victor/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/ba17e070436e85c663ff51fafbacee19/AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/Victor/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/ba17e070436e85c663ff51fafbacee19/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/53042b7f3a167bd3cadf32be418f790a/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/53042b7f3a167bd3cadf32be418f790a/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.0.aar/d2d1ddb1eea26f4cccbfd9c0747d4edb/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.0.aar/d2d1ddb1eea26f4cccbfd9c0747d4edb/AndroidManifest.xml:52:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/676db45984a48ac46f61b3ee963ee52d/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/676db45984a48ac46f61b3ee963ee52d/AndroidManifest.xml:29:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/Victor/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/8bd1e11a0f8e84ad72ea0ab1e913ba7c/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/Victor/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/8bd1e11a0f8e84ad72ea0ab1e913ba7c/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/Victor/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/7c205b019a3898dad3bd03829962b96e/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/Victor/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/7c205b019a3898dad3bd03829962b96e/AndroidManifest.xml:9:5-67
 	android:name
 		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:6:22-64
-application
-ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:8:5-35:19
-MERGED from [com.android.support:design:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/e320bdd8d5fea04176a5ea865cc4a341/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/e320bdd8d5fea04176a5ea865cc4a341/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/7cefb750b9d50c4cf88a148390c2e398/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/7cefb750b9d50c4cf88a148390c2e398/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1cb6bdce0318b04eab35832f1593d2cc/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1cb6bdce0318b04eab35832f1593d2cc/AndroidManifest.xml:9:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/f152df3072eef5f5b8bab7ceb52a8157/AndroidManifest.xml:11:5-17:19
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/f152df3072eef5f5b8bab7ceb52a8157/AndroidManifest.xml:11:5-17:19
-MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/54fad7f659c49ed6ec6a8cd7d2c8514a/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/54fad7f659c49ed6ec6a8cd7d2c8514a/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/74aab0c2f49939c31252e18ac4224d33/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/74aab0c2f49939c31252e18ac4224d33/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/2b9bccf13c8e98b5b5499cb530d20ae1/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/2b9bccf13c8e98b5b5499cb530d20ae1/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/330f6176b9f5fc6c65f54952fafaf06a/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/330f6176b9f5fc6c65f54952fafaf06a/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/7b1bfefe70ac25e48fcd3bdfaeea3b2c/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/7b1bfefe70ac25e48fcd3bdfaeea3b2c/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/9d73cbb1a1ea75ef9f202a7f40b5915f/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/9d73cbb1a1ea75ef9f202a7f40b5915f/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/81b3a69dae9dc70aee9b7bb813e388a6/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/81b3a69dae9dc70aee9b7bb813e388a6/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/359802e3a24b02c6bec973683803444e/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/359802e3a24b02c6bec973683803444e/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/59762125915dff7c6594c6aa4e876f16/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/59762125915dff7c6594c6aa4e876f16/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/7516262ee45fe2b7a9f0f4733a156dbf/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/7516262ee45fe2b7a9f0f4733a156dbf/AndroidManifest.xml:25:5-29:19
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.0.aar/490693c643101e30168700b80542e3a7/AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.0.aar/490693c643101e30168700b80542e3a7/AndroidManifest.xml:54:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/cd338980102279d769f8413167979abd/AndroidManifest.xml:31:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/cd338980102279d769f8413167979abd/AndroidManifest.xml:31:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/Victor/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/7cc188ed49951ad1c58f53bc6b5cb410/AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/Victor/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/7cc188ed49951ad1c58f53bc6b5cb410/AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/Victor/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/ba17e070436e85c663ff51fafbacee19/AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/Victor/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/ba17e070436e85c663ff51fafbacee19/AndroidManifest.xml:11:5-20
-	android:supportsRtl
-		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:14:9-35
-	android:label
-		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:12:9-41
-	android:roundIcon
-		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:13:9-54
-	android:icon
-		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:11:9-43
-	android:allowBackup
-		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:9:9-35
-	android:theme
-		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:15:9-40
-	android:name
-		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:10:9-34
-activity#com.supportflatshare.circlecitestproject.MainActivity
-ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:16:9-25:20
-	android:label
-		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:18:13-45
-	android:theme
-		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:19:13-56
-	android:name
-		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:17:13-41
+uses-sdk
+INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/fed9d8d796f2b5decf1d04a7d2f108ce/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/fed9d8d796f2b5decf1d04a7d2f108ce/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/78465adb08a0cfcd1f6078c0b898f2ae/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/78465adb08a0cfcd1f6078c0b898f2ae/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c038c6aa20aa08a9d489e0868f70e4be/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c038c6aa20aa08a9d489e0868f70e4be/AndroidManifest.xml:5:5-7:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/53042b7f3a167bd3cadf32be418f790a/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/53042b7f3a167bd3cadf32be418f790a/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/9b8decabfc38d1bf6e290f9feef84838/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/9b8decabfc38d1bf6e290f9feef84838/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/b7769857e9c460b648441925e05b85df/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/b7769857e9c460b648441925e05b85df/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/35f7d1034b5d7c6fb5b20e9c5349358e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/35f7d1034b5d7c6fb5b20e9c5349358e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/7c05f35f81f5ad34d85b096508d345e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/7c05f35f81f5ad34d85b096508d345e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/c1296196d9bcddc3a0e45b49fb81d79d/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/c1296196d9bcddc3a0e45b49fb81d79d/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/185fe305f089a91850e7f86abb536d2f/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/185fe305f089a91850e7f86abb536d2f/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/634247f462411d7c22716f246835302b/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/634247f462411d7c22716f246835302b/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/3b5d5656ddb08bab007e9a9b7b2733f9/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/3b5d5656ddb08bab007e9a9b7b2733f9/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/86771dce713dc68cf0f6c1825427dfe1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/86771dce713dc68cf0f6c1825427dfe1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/4c0eeda0adf8a618b70aaba0f23a6cad/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/4c0eeda0adf8a618b70aaba0f23a6cad/AndroidManifest.xml:21:5-23:58
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.0.aar/d2d1ddb1eea26f4cccbfd9c0747d4edb/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.0.aar/d2d1ddb1eea26f4cccbfd9c0747d4edb/AndroidManifest.xml:50:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/676db45984a48ac46f61b3ee963ee52d/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/676db45984a48ac46f61b3ee963ee52d/AndroidManifest.xml:27:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/Victor/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/8bd1e11a0f8e84ad72ea0ab1e913ba7c/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/Victor/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/8bd1e11a0f8e84ad72ea0ab1e913ba7c/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/Victor/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/7c205b019a3898dad3bd03829962b96e/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/Victor/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/7c205b019a3898dad3bd03829962b96e/AndroidManifest.xml:7:5-43
+INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/fed9d8d796f2b5decf1d04a7d2f108ce/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
@@ -137,93 +191,41 @@ ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidMan
 		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:33:13-69
 	android:name
 		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml:32:13-44
-uses-sdk
-INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
-INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/e320bdd8d5fea04176a5ea865cc4a341/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/e320bdd8d5fea04176a5ea865cc4a341/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/7cefb750b9d50c4cf88a148390c2e398/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/7cefb750b9d50c4cf88a148390c2e398/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1cb6bdce0318b04eab35832f1593d2cc/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1cb6bdce0318b04eab35832f1593d2cc/AndroidManifest.xml:5:5-7:41
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/f152df3072eef5f5b8bab7ceb52a8157/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/f152df3072eef5f5b8bab7ceb52a8157/AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/54fad7f659c49ed6ec6a8cd7d2c8514a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/54fad7f659c49ed6ec6a8cd7d2c8514a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/74aab0c2f49939c31252e18ac4224d33/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/74aab0c2f49939c31252e18ac4224d33/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/2b9bccf13c8e98b5b5499cb530d20ae1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/2b9bccf13c8e98b5b5499cb530d20ae1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/330f6176b9f5fc6c65f54952fafaf06a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/330f6176b9f5fc6c65f54952fafaf06a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/7b1bfefe70ac25e48fcd3bdfaeea3b2c/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/7b1bfefe70ac25e48fcd3bdfaeea3b2c/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/9d73cbb1a1ea75ef9f202a7f40b5915f/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/9d73cbb1a1ea75ef9f202a7f40b5915f/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/81b3a69dae9dc70aee9b7bb813e388a6/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/81b3a69dae9dc70aee9b7bb813e388a6/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/359802e3a24b02c6bec973683803444e/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/359802e3a24b02c6bec973683803444e/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/59762125915dff7c6594c6aa4e876f16/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/59762125915dff7c6594c6aa4e876f16/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/7516262ee45fe2b7a9f0f4733a156dbf/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/7516262ee45fe2b7a9f0f4733a156dbf/AndroidManifest.xml:21:5-23:58
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.0.aar/490693c643101e30168700b80542e3a7/AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.0.aar/490693c643101e30168700b80542e3a7/AndroidManifest.xml:50:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/cd338980102279d769f8413167979abd/AndroidManifest.xml:27:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] /Users/Victor/.gradle/caches/transforms-1/files-1.1/fabric-1.4.2.aar/cd338980102279d769f8413167979abd/AndroidManifest.xml:27:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/Victor/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/7cc188ed49951ad1c58f53bc6b5cb410/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/Victor/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/7cc188ed49951ad1c58f53bc6b5cb410/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/Victor/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/ba17e070436e85c663ff51fafbacee19/AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/Victor/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/ba17e070436e85c663ff51fafbacee19/AndroidManifest.xml:7:5-43
-INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
-INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/e320bdd8d5fea04176a5ea865cc4a341/AndroidManifest.xml:23:9-59
-	android:targetSdkVersion
-		INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Victor/Development/CircleCiTestProject/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/e320bdd8d5fea04176a5ea865cc4a341/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/7cefb750b9d50c4cf88a148390c2e398/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/7cefb750b9d50c4cf88a148390c2e398/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/54fad7f659c49ed6ec6a8cd7d2c8514a/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/54fad7f659c49ed6ec6a8cd7d2c8514a/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/74aab0c2f49939c31252e18ac4224d33/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/74aab0c2f49939c31252e18ac4224d33/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/2b9bccf13c8e98b5b5499cb530d20ae1/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/2b9bccf13c8e98b5b5499cb530d20ae1/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/330f6176b9f5fc6c65f54952fafaf06a/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/330f6176b9f5fc6c65f54952fafaf06a/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/7b1bfefe70ac25e48fcd3bdfaeea3b2c/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/7b1bfefe70ac25e48fcd3bdfaeea3b2c/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/9d73cbb1a1ea75ef9f202a7f40b5915f/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/9d73cbb1a1ea75ef9f202a7f40b5915f/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/81b3a69dae9dc70aee9b7bb813e388a6/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/81b3a69dae9dc70aee9b7bb813e388a6/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/359802e3a24b02c6bec973683803444e/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/359802e3a24b02c6bec973683803444e/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/59762125915dff7c6594c6aa4e876f16/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/59762125915dff7c6594c6aa4e876f16/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/7516262ee45fe2b7a9f0f4733a156dbf/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/7516262ee45fe2b7a9f0f4733a156dbf/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/fed9d8d796f2b5decf1d04a7d2f108ce/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/78465adb08a0cfcd1f6078c0b898f2ae/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/78465adb08a0cfcd1f6078c0b898f2ae/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/9b8decabfc38d1bf6e290f9feef84838/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/9b8decabfc38d1bf6e290f9feef84838/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/b7769857e9c460b648441925e05b85df/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/b7769857e9c460b648441925e05b85df/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/35f7d1034b5d7c6fb5b20e9c5349358e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.4.0.aar/35f7d1034b5d7c6fb5b20e9c5349358e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/7c05f35f81f5ad34d85b096508d345e6/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/transition-25.4.0.aar/7c05f35f81f5ad34d85b096508d345e6/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/c1296196d9bcddc3a0e45b49fb81d79d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/c1296196d9bcddc3a0e45b49fb81d79d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/185fe305f089a91850e7f86abb536d2f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/185fe305f089a91850e7f86abb536d2f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/634247f462411d7c22716f246835302b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/634247f462411d7c22716f246835302b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/3b5d5656ddb08bab007e9a9b7b2733f9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/3b5d5656ddb08bab007e9a9b7b2733f9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/86771dce713dc68cf0f6c1825427dfe1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/86771dce713dc68cf0f6c1825427dfe1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/4c0eeda0adf8a618b70aaba0f23a6cad/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/4c0eeda0adf8a618b70aaba0f23a6cad/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/e320bdd8d5fea04176a5ea865cc4a341/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/fed9d8d796f2b5decf1d04a7d2f108ce/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/e320bdd8d5fea04176a5ea865cc4a341/AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:25.4.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/design-25.4.0.aar/fed9d8d796f2b5decf1d04a7d2f108ce/AndroidManifest.xml:27:13-51
 provider#com.crashlytics.android.CrashlyticsInitProvider
-ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/f152df3072eef5f5b8bab7ceb52a8157/AndroidManifest.xml:12:9-16:39
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/53042b7f3a167bd3cadf32be418f790a/AndroidManifest.xml:12:9-16:39
 	android:authorities
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/f152df3072eef5f5b8bab7ceb52a8157/AndroidManifest.xml:14:13-75
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/53042b7f3a167bd3cadf32be418f790a/AndroidManifest.xml:14:13-75
 	android:exported
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/f152df3072eef5f5b8bab7ceb52a8157/AndroidManifest.xml:15:13-37
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/53042b7f3a167bd3cadf32be418f790a/AndroidManifest.xml:15:13-37
 	android:initOrder
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/f152df3072eef5f5b8bab7ceb52a8157/AndroidManifest.xml:16:13-36
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/53042b7f3a167bd3cadf32be418f790a/AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/f152df3072eef5f5b8bab7ceb52a8157/AndroidManifest.xml:13:13-75
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.0] /Users/Victor/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.0.aar/53042b7f3a167bd3cadf32be418f790a/AndroidManifest.xml:13:13-75
