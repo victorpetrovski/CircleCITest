@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setSupportActionBar(toolbar)
 
         fab.setOnClickListener { view ->
-            Snackbar.make(view, "We are currently on the dev branch!", Snackbar.LENGTH_LONG)
+            Snackbar.make(view, "This is a new feature", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
 
             throw RuntimeException("Fabric Exception")
